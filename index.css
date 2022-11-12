@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+/*  
+.container {
+  display: flex;
+  color: white;
+  font-size: 6rem;
+  justify-content: center;
+  background: linear-gradient(to top right, rgb(7, 138, 116), rgb(7, 165, 165));
+  height: 100vh;
+  width: 100%;
+}
+ */
+html {
+  font-size: 60%;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(243, 120, 4);
+  background-color: rgb(13, 121, 121);
+}
+
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 8px solid rgb(243, 120, 4);
+  font-size: 30px;
+  align-items: center;
+  margin-top: 10%;
+
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+header .number {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+main {
+  height: 65vh;
+  color: rgb(243, 120, 4);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  margin: 15%;
+  border: 2px rgb(243, 120, 4) solid;
+  padding: 10%;
+}
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+}
+.guess {
+  width: 300px;
+  height: 70px;
+  background-color: rgba(4, 243, 171, 0.801);
+  color: white;
+  font-size: 30px;
+  align-self: center;
+}
+.btn {
+  width: 300px;
+  height: 70px;
+  background-color: rgba(243, 119, 4, 0.801);
+  color: white;
+  font-size: 30px;
+  align-self: center;
+}
+.message,
+.label-score,
+.label-hightscore {
+  color: rgba(4, 243, 171, 0.801);
+  margin: 5px;
+  line-height: 1.3;
+}
