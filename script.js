@@ -35,8 +35,9 @@ console.log(
   (document.querySelector('.message').textContent = '🇩🇿 oop correct Number')
 );
 
-document.querySelector('.number').textContent = 13;
-document.querySelector('.score').textContent = 12;
+
+const num = document.querySelector('.number').textContent = 13;
+const score = document.querySelector('.score').textContent = 11;
 
 console.log((document.querySelector('.guess').value = 003));
 console.log(document.querySelector('.guess').value);
