@@ -52,7 +52,7 @@ const button = document
         (document.querySelector('.message').textContent = '🍔 No Number')
       );
     } else {
-      console.log(guess);
+      guess.style.backgroundColor = 'lightblue'
     }
   });
 console.log(button);
