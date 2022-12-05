@@ -56,3 +56,38 @@ const button = document
     }
   });
 console.log(button);
+
+
+
+// 5 -12-2022
+// #08 data structure , Modern Operators and Stings
+
+// Destructuring Arrays
+/* 
+const arr = [2, 3, 4];
+
+const [x, y, z] = arr;
+console.log(z, x, y);
+
+let [one, two] = arr;
+console.log(one, two);
+ 
+// const temp = one;
+// one = two;
+// two = temp;
+// console.log(one, two);
+
+// destructuring switching
+[one, two] = [two, one];
+console.log(one, two);
+
+// Nested destructuring
+const nested = [2, 4, [5, 6]];
+const [i, , [j, k]] = nested;
+
+console.log(i, j, k);
+// Default values
+const [p = 1, q = 1, r = 1] = [8, 9];
+console.log(p, q, r);
+ */
+// Object Destructuring 
